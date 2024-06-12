@@ -1,0 +1,37 @@
+________Project setup understanding and functionalites identification________________
+
+
+1. Create a table to store list of items suppplied to the store inventory __----- Done
+name 
+str
+
+
+2. Create a Supplier model that stores: _____________________ Done
+    1. Supplier name
+    2. Contact information
+    3. List of items they supply
+
+
+
+3. Create a Store Inventory Model that would have: __________ Done
+    1. Supplier name which should come from the supplier list (establish a relationship with supplier table)
+    2. List of inventory they supply(extablish a relationship with supplier table)
+    3. Description of the Inventory
+    4. Price of the inventory
+    5. Quantity of the inventory
+    6. Date it was added to the inventory.
+
+
+4. Use serializer to convert models to readable format(json) _____________________ Done
+
+5. Create APIView to handle CRUD operations for the inventory/suppliers models _________________ Done
+
+6. Test cases to test the APIs models and views ________________________ Done
+
+7. Create urls to route the views and retrieve response ______________ Done
+
+8. Create a simple and easy to use Documentation ___________________ Done 
+
+9. Create List_supplier_method to handle retieving list of items supplied by a supplier ____________ Done
+
+10. Push to git
