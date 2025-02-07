@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Supplier, Item, StoreInventory
+from .models *
 
 class SupplierSerializer(serializers.ModelSerializer):
     # Set items_they_supply required to false so that it wont affect inventory post processing
